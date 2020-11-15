@@ -22,22 +22,6 @@
 	<script src="assets/js/smoothscroll.js"></script>
 </head>
 <body>
-<script type="text/javascript">
-      (function(i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function() {
-          (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-          m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-      ga('create', 'UA-96875843-3', 'auto');
-      ga('send', 'pageview');
-</script>
     <!-- SECTION LABEL -->
 	<div id="top"></div>
 		<!-- WRAPPER -->
@@ -458,7 +442,6 @@
 						<div class="col-md-6 form-section">
 							<div class="col-md-12 form-section-title">
 								<div class="form-section-title-bg">
-									<!-- <img src="assets/images/get-in-touch-section/profile.png"> -->
 								</div>
 								<p>Use the form below, send me an <a class="form-mailto" href="mailto:e65wang@uwaterloo.ca">email</a>, or call me at 289-993-1006</p>
 							</div>
@@ -470,7 +453,6 @@
 										</div>
 										<div class="col-md-6 form-group">
 											<input type="email" name="_replyto email" placeholder="Email address">
-                                    		<!-- Leave this here to help prevent SPAM -->
                                     		<input type="text" id="website" name="website"/>
 										</div>
 									</div>
@@ -512,25 +494,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 	<script src="assets/js/owlcarousel/owl.carousel.min.js"></script>
     <script src='assets/js/mixitup.min.js'></script>
-  	<!-- Header scroll -->
-	<script type="text/javascript">
-			$(window).scroll(function() {
-			    if ($(this).scrollTop() > 20) {
-			      $('#navbar').addClass('header-scrolled');
-			    } else {
-			      $('#navbar').removeClass('header-scrolled');
-			    }
-			  });		
-	</script>
-	<!-- Carousel script -->
-	<script>
-		$('.reviews-carousel').owlCarousel({
-		    loop:true,
-		    margin:10,
-		    nav:true,
-		    items: 1,
-		})
-	</script>
+
 	<!-- Work script -->
 	<script>
 		var mixer = mixitup("#work-list");
