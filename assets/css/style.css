@@ -35,6 +35,7 @@
         background-color: #fff;
         overflow-x: hidden;
     }
+    
 
     h1,
     h2,
@@ -843,7 +844,7 @@
         top: 0;
         bottom: 0;
         margin: auto 0;
-        background-image: url(https://demo.codefest.co.uk/resuma/assets/images/about-me-section/3.png);
+       
         background-size: 100%;
         background-position: center center;
         background-repeat: no-repeat;
@@ -899,7 +900,7 @@
         top: 0;
         bottom: 0;
         margin: auto 0;
-        background-image: url(https://demo.codefest.co.uk/resuma/assets/images/about-me-section/1.png);
+       
         background-size: 100%;
         background-position: center center;
         background-repeat: no-repeat;
